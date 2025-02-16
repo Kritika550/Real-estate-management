@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-purple-700 flex items-center justify-center min-h-screen">
+    <div class="bg-white rounded-lg shadow-lg p-8 w-full max-w-sm">
+        <h1 class="text-3xl font-semibold mb-6">Login</h1>
+        <form>
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="email">
+                    Email Address
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="email" type="email" value=" " placeholder="email">
+            </div>
+            <div class="mb-6 relative">
+                <label class="block text-gray-700 text-sm font-bold mb-2" for="password">
+                    Password
+                </label>
+                <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" value=" " placeholder="password">
+                <i class="fas fa-eye absolute right-3 top-10 text-gray-500"></i>
+            </div>
+            <div class="flex items-center justify-between">
+                <button class="bg-purple-500 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"  type="button"><a href="index.html">Login </a></button>
+            </div>
+            <div class="text-center mt-4">
+                <a class="inline-block align-baseline font-bold text-sm text-purple-500 hover:text-purple-800" href="forget.html">
+                    Forgot Password?
+                </a>
+            </div>
+        </form>
+        <div class="text-center mt-4">
+            <p class="text-gray-700">Don't have an account?<a class="text-purple-500 hover:text-purple-800 font-bold" href="create.html">Create Account</a></p>
+        </div>
+    </div>
+</body>
+</html>

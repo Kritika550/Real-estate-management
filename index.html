@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>Housing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+    .rounded-b-full {
+      border-bottom-left-radius: 100%;
+      border-bottom-right-radius: 100%;
+    }
+  </style>
+</head>
+<body class="bg-gray-100">
+  <div class="bg-purple-800 h-16"></div>
+  <div class="relative bg-gray-100">
+    <div class="absolute top-0 left-0 w-full h-64 bg-white rounded-b-full"></div>
+    <div class="relative z-10 flex flex-col items-center pt-8">
+      <div class="flex items-center">
+        <div class="w-1/2">
+          <h2 class="text-gray-500 text-lg">Hey there,</h2>
+          <h1 class="text-3xl font-bold">GHAR DEKHO!</h1>
+        </div>
+        <div class="w-1/2">
+          <img alt="Illustration of a person holding a tablet with buildings in the background" class="w-full" height="200" src="https://storage.googleapis.com/a1aa/image/FV_Di8dB7HM45z6hWB0NasTC0slwQbaT3OugIV5VmjI.jpg" width="200"/>
+        </div>
+      </div>
+      <div class="mt-8 w-full px-4">
+        <h3 class="text-xl font-semibold">What are you looking up for?</h3>
+        <p class="text-gray-500">Your new beginning starts here.</p>
+        <div class="mt-4 space-y-4">
+          <div class="bg-white p-4 rounded-lg shadow flex items-center">
+            <div class="w-12 h-12 bg-red-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-search text-red-500"></i>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg font-semibold"><a href="homesearch.html">Home Search</a></h4>
+              <p class="text-gray-500">Buy, Rent, P.G. &amp; Commercial</p>
+            </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow flex items-center">
+            <div class="w-12 h-12 bg-purple-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-credit-card text-purple-500"></i>
+            </div>
+            <div class="ml-4">
+              <h4 class="text-lg font-semibold">Pay on Credit</h4>
+              <p class="text-gray-500">Pay rent, education fees &amp; more with Credit Card</p>
+            </div>
+          </div>
+          <div class="bg-white p-4 rounded-lg shadow flex items-center">
+            <div class="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center">
+              <i class="fas fa-rupee-sign text-green-500"></i>
+            </div>
+            <div class="ml-4 flex items-center">
+              <div>
+                <h4 class="text-lg font-semibold">Sell / Rent your Property</h4>
+                <p class="text-gray-500">Get verified enquiries in 24 hours</p>
+              </div>
+              <span class="ml-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">FREE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function handleCardClick(cardName) {
+     alert(`You clicked on ${cardName}`);
+    }
+   </script>
+</body>
+</html>
